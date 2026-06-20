@@ -2,7 +2,7 @@ import * as mock from '../data/mock.js';
 
 // ── Konfiguracja ──────────────────────────────────────────────
 export const USE_MOCK = false; // ustaw na false, aby korzystać z prawdziwego API
-const API_BASE = 'https://quest.zuwala.pl/api'; // zmień na adres swojego API
+const API_BASE = 'https://fapp-poligon-native-prodsr20.azurewebsites.net'; // zmień na adres swojego API
 
 // ── Token JWT ─────────────────────────────────────────────────
 export function getToken() {
